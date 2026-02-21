@@ -1,0 +1,497 @@
+vijaykath@vijaykath-ThinkPad:~$ ls
+Desktop  Documents  Downloads  hello.sh  Music  Pictures  Public  snap  Templates  test2.sh  text.sh  Videos
+vijaykath@vijaykath-ThinkPad:~$ cd Documents/
+vijaykath@vijaykath-ThinkPad:~/Documents$ ls
+bashactivity.sh  biotechniques  biotech.txt  test_dr  testfiles  test.txt
+vijaykath@vijaykath-ThinkPad:~/Documents$ cd bashactivity.sh
+bash: cd: bashactivity.sh: Not a directory
+vijaykath@vijaykath-ThinkPad:~/Documents$ bash bashactivity.sh
+mkdir: cannot create directory ‘testfiles3’: File exists
+vijaykath@vijaykath-ThinkPad:~/Documents$ ls
+bashactivity.sh  biotechniques  biotech.txt  test_dr  testfiles  test.txt
+vijaykath@vijaykath-ThinkPad:~/Documents$ cd biotechniques/
+vijaykath@vijaykath-ThinkPad:~/Documents/biotechniques$ ls
+biotech.txt  practice_folder  testfiles3
+vijaykath@vijaykath-ThinkPad:~/Documents/biotechniques$ cd testfiles3
+vijaykath@vijaykath-ThinkPad:~/Documents/biotechniques/testfiles3$ ls
+empty3.txt
+vijaykath@vijaykath-ThinkPad:~/Documents/biotechniques/testfiles3$ empty3.txt
+empty3.txt: command not found
+vijaykath@vijaykath-ThinkPad:~/Documents/biotechniques/testfiles3$ cd ~
+vijaykath@vijaykath-ThinkPad:~$ history
+    1  ls
+    2  Music ls
+    3  cd Desktop/
+    4  ls
+    5  cd..
+    6  cd ..
+    7  cd Documents/
+    8  ls
+    9  cd ..
+   10  pip
+   11  sudo apt update
+   12  python3 --version
+   13  sudo apt install biopython
+   14  pip install biopython
+   15  sudo apt install pip
+   16  pip install biopython
+   17  sudo apt-get install python-biopython
+   18  sudo apt-get install python3-biopython
+   19  vi
+   20  cd Desktop/
+   21  cd ../Documents
+   22  ls
+   23  touch test_hello.py
+   24  ls
+   25  vi test_hello.py 
+   26  l
+   27  vi hello.py
+   28  nano hello.py
+   29  cat hello.py 
+   30  python3 hello.py 
+   31  ls
+   32  set wd_test.wd
+   33  ls
+   34  mkdir test_dr
+   35  ls
+   36  ste wd
+   37  sudo apt update
+   38  sudo apt upgrade
+   39  exit
+   40  ls
+   41  desktop ls
+   42  ls
+   43  music
+   44  ls documents
+   45  pwd
+   46  ls
+   47  ls Document
+   48  ls -l
+   49  cd ..
+   50  ls
+   51  cd FILEPATH/
+   52  cd music
+   53  ls Documents
+   54  cd..
+   55  pwd
+   56  ls
+   57  cd vijaykath/
+   58  ls
+   59  cd Documents
+   60  ls
+   61  mkdir biotechniques
+   62  ls
+   63  rmdik biotechniques
+   64  ls
+   65  rmdir biotechniques
+   66  ls
+   67  mkdir biotechniques
+   68  ls
+   69  touch biotech.txt
+   70  ls
+   71  cd biotechniques
+   72  ls
+   73  touch biotech.txt
+   74  ls
+   75  pwd
+   76  ls
+   77  cp biotech.txt
+   78  cp biotech
+   79  cd..
+   80  cd ..
+   81  cd biotechniques
+   82  mk dir practice folder
+   83  ls
+   84  mkdir practice_folder
+   85  ls
+   86  cd practice_folder/
+   87  touch practice_folder.txt
+   88  ls
+   89  cp practice_folder.txt 
+   90  ls
+   91  cp practice_folder.txt documents
+   92  cd ..
+   93  cd..
+   94  cd ..
+   95  ls
+   96  cd practice_folder
+   97  ls
+   98  cd..
+   99  cd ..
+  100  sudo apt update
+  101  sudo apt install hisat2
+  102  hisat2
+  103  sudo apt install samtools
+  104  samtools
+  105  touch t.py
+  106  nano t.py 
+  107  nanp t.py 
+  108  nano t.py 
+  109  python3 t.py 
+  110  /bin/python3 /home/vijaykath/Documents/biotechniques/practice_folder/t.py
+  111  history
+  112  ls
+  113  cat > hello.sh
+  114  ls
+  115  hello.sh
+  116  cd hello.sh ls
+  117  cd hello.sh
+  118  ls
+  119  cd documents
+  120  cd Documents
+  121  ls
+  122  cd biotechniques
+  123  ls
+  124  cd practice folder
+  125  cd 'practice_folder'
+  126  ls
+  127  cat linux_lab1.txt 
+  128  less linux_lab1.txt 
+  129  history
+  130  cat linux_lab1.txt 
+  131  less linux_lab1.txt 
+  132  ls
+  133  tail linux_lab1.txt 
+  134  ls -lh
+  135  cd~
+  136  cd ~
+  137  clear
+  138  history
+  139  mv file newname
+  140  ls
+  141  cd documents/biotechniques
+  142  cd Documents/biotechniques
+  143  ls
+  144  cd practice folder
+  145  cd 'practice folder'
+  146  cd 'practice_folder'
+  147  ls
+  148  mv linux_labI.txt linux_lab1.txt 
+  149  mv linux_lab1.txt linux_labI.txt
+  150  ls -l
+  151  mv documents linux_labI.txt practice_folder.txt /home/vijaykath/Downloads
+  152  ls
+  153  cd ../..
+  154  ls
+  155  cd biotechniques/practice_folder/
+  156  ls
+  157  vim --version
+  158  nano linux_labI.txt 
+  159  python3
+  160  cd ~
+  161  sudo apt install matplotlib
+  162  pip install matplotlib
+  163  sudo apt install matplotlib
+  164  pip3 install matplotlib
+  165  pip3 --version
+  166  ls
+  167  bash test2.sh
+  168  ls
+  169  cd test2.sh
+  170  pwd
+  171  cd home/vijaykanth/test.sh
+  172  cd Documents
+  173  ls
+  174  cd testfiles
+  175  ls
+  176  pwd
+  177  cd ~
+  178  cd biotechniques
+  179  ls
+  180  cd Documents
+  181  ls
+  182  bash bashactivity.sh
+  183  ls
+  184  cd biotechniques
+  185  ls
+  186  pwd
+  187  cd home/vijaykanth/
+  188  cd home/vijaykanth
+  189  ls
+  190  documents
+  191  cd documents
+  192  cd.documents
+  193  cd documents
+  194  ls
+  195  documents
+  196  pwd
+  197  cd documents
+  198  cd Documents
+  199  ls
+  200  bash test2.sh
+  201  ls
+  202  bash test.sh
+  203  pwd
+  204  cd~
+  205  la
+  206  ls
+  207  cd biotechniques/
+  208  ls
+  209  cd practice_folder/
+  210  ls
+  211  cd ../../
+  212  cd ..
+  213  pwd
+  214  ls
+  215  pwd
+  216  nano test2.sh
+  217  nano text.sh
+  218  ls
+  219  bash test.sh
+  220  pwd
+  221  ls
+  222  cd home
+  223  nano test2.sh
+  224  ls
+  225  cd Documents/
+  226  ls
+  227  cd bashactivity.sh
+  228  bash bashactivity.sh
+  229  ls
+  230  cd biotechniques/
+  231  ls
+  232  cd testfiles3
+  233  ls
+  234  empty3.txt
+  235  cd ~
+  236  history
+vijaykath@vijaykath-ThinkPad:~$ history 
+    1  ls
+    2  Music ls
+    3  cd Desktop/
+    4  ls
+    5  cd..
+    6  cd ..
+    7  cd Documents/
+    8  ls
+    9  cd ..
+   10  pip
+   11  sudo apt update
+   12  python3 --version
+   13  sudo apt install biopython
+   14  pip install biopython
+   15  sudo apt install pip
+   16  pip install biopython
+   17  sudo apt-get install python-biopython
+   18  sudo apt-get install python3-biopython
+   19  vi
+   20  cd Desktop/
+   21  cd ../Documents
+   22  ls
+   23  touch test_hello.py
+   24  ls
+   25  vi test_hello.py 
+   26  l
+   27  vi hello.py
+   28  nano hello.py
+   29  cat hello.py 
+   30  python3 hello.py 
+   31  ls
+   32  set wd_test.wd
+   33  ls
+   34  mkdir test_dr
+   35  ls
+   36  ste wd
+   37  sudo apt update
+   38  sudo apt upgrade
+   39  exit
+   40  ls
+   41  desktop ls
+   42  ls
+   43  music
+   44  ls documents
+   45  pwd
+   46  ls
+   47  ls Document
+   48  ls -l
+   49  cd ..
+   50  ls
+   51  cd FILEPATH/
+   52  cd music
+   53  ls Documents
+   54  cd..
+   55  pwd
+   56  ls
+   57  cd vijaykath/
+   58  ls
+   59  cd Documents
+   60  ls
+   61  mkdir biotechniques
+   62  ls
+   63  rmdik biotechniques
+   64  ls
+   65  rmdir biotechniques
+   66  ls
+   67  mkdir biotechniques
+   68  ls
+   69  touch biotech.txt
+   70  ls
+   71  cd biotechniques
+   72  ls
+   73  touch biotech.txt
+   74  ls
+   75  pwd
+   76  ls
+   77  cp biotech.txt
+   78  cp biotech
+   79  cd..
+   80  cd ..
+   81  cd biotechniques
+   82  mk dir practice folder
+   83  ls
+   84  mkdir practice_folder
+   85  ls
+   86  cd practice_folder/
+   87  touch practice_folder.txt
+   88  ls
+   89  cp practice_folder.txt 
+   90  ls
+   91  cp practice_folder.txt documents
+   92  cd ..
+   93  cd..
+   94  cd ..
+   95  ls
+   96  cd practice_folder
+   97  ls
+   98  cd..
+   99  cd ..
+  100  sudo apt update
+  101  sudo apt install hisat2
+  102  hisat2
+  103  sudo apt install samtools
+  104  samtools
+  105  touch t.py
+  106  nano t.py 
+  107  nanp t.py 
+  108  nano t.py 
+  109  python3 t.py 
+  110  /bin/python3 /home/vijaykath/Documents/biotechniques/practice_folder/t.py
+  111  history
+  112  ls
+  113  cat > hello.sh
+  114  ls
+  115  hello.sh
+  116  cd hello.sh ls
+  117  cd hello.sh
+  118  ls
+  119  cd documents
+  120  cd Documents
+  121  ls
+  122  cd biotechniques
+  123  ls
+  124  cd practice folder
+  125  cd 'practice_folder'
+  126  ls
+  127  cat linux_lab1.txt 
+  128  less linux_lab1.txt 
+  129  history
+  130  cat linux_lab1.txt 
+  131  less linux_lab1.txt 
+  132  ls
+  133  tail linux_lab1.txt 
+  134  ls -lh
+  135  cd~
+  136  cd ~
+  137  clear
+  138  history
+  139  mv file newname
+  140  ls
+  141  cd documents/biotechniques
+  142  cd Documents/biotechniques
+  143  ls
+  144  cd practice folder
+  145  cd 'practice folder'
+  146  cd 'practice_folder'
+  147  ls
+  148  mv linux_labI.txt linux_lab1.txt 
+  149  mv linux_lab1.txt linux_labI.txt
+  150  ls -l
+  151  mv documents linux_labI.txt practice_folder.txt /home/vijaykath/Downloads
+  152  ls
+  153  cd ../..
+  154  ls
+  155  cd biotechniques/practice_folder/
+  156  ls
+  157  vim --version
+  158  nano linux_labI.txt 
+  159  python3
+  160  cd ~
+  161  sudo apt install matplotlib
+  162  pip install matplotlib
+  163  sudo apt install matplotlib
+  164  pip3 install matplotlib
+  165  pip3 --version
+  166  ls
+  167  bash test2.sh
+  168  ls
+  169  cd test2.sh
+  170  pwd
+  171  cd home/vijaykanth/test.sh
+  172  cd Documents
+  173  ls
+  174  cd testfiles
+  175  ls
+  176  pwd
+  177  cd ~
+  178  cd biotechniques
+  179  ls
+  180  cd Documents
+  181  ls
+  182  bash bashactivity.sh
+  183  ls
+  184  cd biotechniques
+  185  ls
+  186  pwd
+  187  cd home/vijaykanth/
+  188  cd home/vijaykanth
+  189  ls
+  190  documents
+  191  cd documents
+  192  cd.documents
+  193  cd documents
+  194  ls
+  195  documents
+  196  pwd
+  197  cd documents
+  198  cd Documents
+  199  ls
+  200  bash test2.sh
+  201  ls
+  202  bash test.sh
+  203  pwd
+  204  cd~
+  205  la
+  206  ls
+  207  cd biotechniques/
+  208  ls
+  209  cd practice_folder/
+  210  ls
+  211  cd ../../
+  212  cd ..
+  213  pwd
+  214  ls
+  215  pwd
+  216  nano test2.sh
+  217  nano text.sh
+  218  ls
+  219  bash test.sh
+  220  pwd
+  221  ls
+  222  cd home
+  223  nano test2.sh
+  224  ls
+  225  cd Documents/
+  226  ls
+  227  cd bashactivity.sh
+  228  bash bashactivity.sh
+  229  ls
+  230  cd biotechniques/
+  231  ls
+  232  cd testfiles3
+  233  ls
+  234  empty3.txt
+  235  cd ~
+  236  history
+  237  history 
+vijaykath@vijaykath-ThinkPad:~$ 
+
